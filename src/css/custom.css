@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,10 +8,10 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary:  #BA6DD3;
-  --ifm-color-primary-dark: #B46ED4;
-  --ifm-color-primary-darker: #A263D4;
-  --ifm-color-primary-darkest: #924DE7;
+  --ifm-color-primary: #2959a9;
+  --ifm-color-primary-dark: #2959a9;
+  --ifm-color-primary-darker: #2959a9;
+  --ifm-color-primary-darkest: #2959a9;
   --ifm-color-primary-light: #ca9cd8;
   --ifm-color-primary-lighter: #e5b5e6;
   --ifm-color-primary-lightest: #efc4f5;
@@ -17,14 +19,47 @@
   --docusaurus-highlighted-code-line-bg: rgba(217, 171, 220, 0.435);
 }
 
+/* Branding guidelines indicates that Poppins needs to be used for headlines and Inter for the body */
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif !important;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #C56ED4;
-  --ifm-color-primary-dark: #B46ED4;
-  --ifm-color-primary-darker: #A263D4;
-  --ifm-color-primary-darkest: #924DE7;
+[data-theme="dark"] {
+  --ifm-color-primary: #1eac4b;
+  --ifm-color-primary-dark: #1eac4b;
+  --ifm-color-primary-darker: #1eac4b;
+  --ifm-color-primary-darkest: #1eac4b;
   --ifm-color-primary-light: #ca9cd8;
   --ifm-color-primary-lighter: #e5b5e6;
   --ifm-color-primary-lightest: #efc4f5;
   --docusaurus-highlighted-code-line-bg: rgba(217, 171, 220, 0.435);
+}
+
+.navbar-gh-img-link {
+  padding: 0;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar-gh-link {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+
+.navbar__search-input {
+  width: 20rem;
 }

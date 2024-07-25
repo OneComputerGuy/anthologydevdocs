@@ -4,10 +4,15 @@
  */
 
 .heroBanner {
+  background: linear-gradient(195deg, #1eac4b 10%, #2959a9 30%);
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.header-description {
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 996px) {

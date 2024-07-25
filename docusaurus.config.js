@@ -1,45 +1,44 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Anthology Developer Documentation',
-  tagline: 'APIs are cool!',
-  favicon: 'img/favicon.ico',
+  title: "Anthology Developer Docs",
+  tagline: "APIs are cool!",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   // url: 'https://blackboard.github.io',
   // url: 'https://anthologydevdocs.github.io',
-  url: 'https://docs.anthology.com',
+  url: "https://docs.anthology.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/',
-  baseUrl: '/',
-  projectName: 'anthologydevdocs',
-  organizationName: 'Anthology',
+  baseUrl: "/",
+  projectName: "anthologydevdocs",
+  organizationName: "Anthology",
   trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: 'blackboard', // Usually your GitHub org/user name.
   //projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "throw",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
-
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -49,7 +48,7 @@ const config = {
           // autoCollapseCategories: true,
           //},
 
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -57,14 +56,14 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          postsPerPage: 'ALL',
+          postsPerPage: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -74,113 +73,88 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'anthology',
+        title: "anthology",
         logo: {
-          alt: 'Anthology Logo',
-          src: 'img/ANTHOLOGY-Logo-RGB.svg',
+          alt: "Anthology Logo",
+          src: "img/ANTHOLOGY-Logo-RGB.svg",
         },
         items: [
           {
-            to: '/docs/site-intro',
+            to: "/docs/site-intro",
             // type: 'docSidebar',
             // sidebarId: 'documentationSidebar',
-            position: 'left',
-            label: 'Documentation',
+            position: "right",
+            label: "Documentation",
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: "/blog", label: "Blog", position: "right" },
           {
-            href: 'https://github.com/search?q=org%3Ablackboard+blackboard%2FBBDN-',
-            label: 'GitHub',
-            position: 'right',
+            type: "html",
+            position: "right",
+            value:
+              '<a class="navbar-gh-link" href="https://github.com/blackboard/anthologydevdocs" target="_blank"><img class="navbar-gh-img-link" src="/img/gh.png"/></a>',
+          },
+          {
+            type: "search",
+            position: "left",
           },
         ],
       },
-      announcementBar: {
-        id: 'support_us',
-        content:
-          '🚨 Please remember: The Developer Portal has an optional maintenance window scheduled every month on the Tuesday of the second week',
-        backgroundColor: '#262626',
-        textColor: '#d5d5d5',
-        isCloseable: false,
-      },
       sidebar: {
+        sidebarCollapsed: true,
+        sidebarCollapsible: true,
         hideable: true,
         autoCollapseCategories: true,
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Anthology Solutions",
             items: [
               {
-                label: 'Home',
-                to: '/',
+                label: "Blackboard Learn",
+                href: "https://www.anthology.com/products/teaching-and-learning/learning-effectiveness/blackboard",
               },
               {
-                label: 'REST APIs',
-                to: '/docs/rest-apis/start-here',
+                label: "Student",
+                href: "https://www.anthology.com/products/enterprise-operations/student-information-and-enterprise-resources/anthology-student",
               },
               {
-                label: 'LTI',
-                to: '/docs/lti/introduction',
-              },
-              {
-                label: 'Standards',
-                to: '/docs/standards/standards-intro',
-              },
-              {
-                label: 'Developer Portal',
-                to: '/docs/developer-portal/start-here',
-              },
-              {
-                label: 'Partners',
-                to: '/docs/partners/partners-become_a_partner',
-              },
-              {
-                label: 'Community',
-                to: '/docs/community/community-intro',
-              },
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: "Reach",
+                href: "https://www.anthology.com/products/lifecycle-engagement/enrollment-and-retention/anthology-reach",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Slack - Blackboard Techies',
-                href: 'https://join.slack.com/t/blackboardtechies/shared_invite/zt-nheykjth-wLgONrE58MS53H~oySYk1g',
+                label: "Blackboard Techies - Slack",
+                href: "https://join.slack.com/t/blackboardtechies/shared_invite/zt-nheykjth-wLgONrE58MS53H~oySYk1g",
               },
               {
-                label: 'Anthology Developer Support',
-                href: 'mailto:developers@anthology.com',
+                label: "Community Portal",
+                href: "https://community.anthology.com",
               },
             ],
           },
           {
-            title: 'More...',
+            title: "Contact Us",
             items: [
               {
-                label: 'Developer AMI',
-                href: 'https://aws.amazon.com/marketplace/seller-profile?id=f6f7de05-e6d2-47f8-96e8-51cc4b38182b',
+                label: "Developer Distro List",
+                to: "mailto:developers@anthology.com",
               },
               {
-                label: 'GitHub - These docs',
-                href: 'https://github.com/blackboard/anthologydevdocs',
-              },
-              {
-                label: 'GitHub - Example projects',
-                href: 'https://github.com/search?q=org%3Ablackboard+blackboard%2FBBDN-',
+                label: "Behind the Blackboard",
+                to: "https://behind.blackboard.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Anthology, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Anthology, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -189,22 +163,10 @@ const config = {
     }),
   plugins: [
     [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
+      require.resolve("docusaurus-lunr-search"),
       {
-        // whether to index docs pages
-        indexDocs: true,
-        // Whether to also index the titles of the parent categories in the sidebar of a doc page.
-        indexDocSidebarParentCategories: 0,
-        // whether to index blog pages
-        indexBlog: true,
-        // whether to index static pages
-        indexPages: false,
-        // language of your documentation, see next section
-        language: 'en',
-        // The maximum number of search results shown to the user. This does _not_ affect performance of
-        // searches, but simply does not display additional search results that have been found.
-        maxSearchResults: 50,
-        style: undefined,
+        languages: ["en"],
+        disableVersioning: true,
       },
     ],
   ],
