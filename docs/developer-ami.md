@@ -1,13 +1,20 @@
 ---
-title: Using the Learn AMI for REST and LTI Development
+title: Blackboard Learn Sandbox environment
 id: developer-ami
 categories: AMI
 author: Mark O'Neil
 published: "2018-07-04"
-edited: "2023-09-12"
+edited: "2024-07-26"
 ---
 
 <VersioningTracker frontMatter={frontMatter}/>
+
+:::danger AMI availability
+
+As of July 26th, 2024, the last available image is Blackboard Learn 3900.95.0 and will be the latest image available while we review and align the publishing process with Amazon Web Services.
+
+Once the review is completed, we'll resume publishing with the latest version of Blackboard Learn as an Amazon Marketplace Image
+:::
 
 This document outlines usage of the [Learn REST and LTI Developer AMI](https://aws.amazon.com/marketplace/pp/prodview-fdbvv2vvikoq4) made available via the Amazon AWS Marketplace.
 

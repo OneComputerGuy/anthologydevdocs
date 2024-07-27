@@ -1,32 +1,32 @@
 ---
-title: Developer Portal Maintenance and Releases
-sidebar_position: 8
-displayed_sidebar: documentationSidebar
-id: devportal-maintenance
-published: "2023-05-09"
-edited: "2024-03-20"
-author: Mark O'Neil, Davey Herrera, Dan Magers, Camilo Dominguez
+title: Service Maintenances and Releases
+id: maintenance-page
+sidebar_position: 1
+hide_table_of_contents: true
+published: "2024-07-26"
+edited: "2024-07-26"
+author: Mark O'Neil, Davey Herrera, Dan Magers, Camilo Dominguez, Sebastian Silva
 ---
 
 <VersioningTracker frontMatter={frontMatter}/>
 
-### Maintenance and Update Window
+## Developer Portal
 
 The Developer Portal has an _optional_ maintenance window scheduled every month on the Tuesday of the second week (after SaaS updates). The exception to this monthly maintenance schedule is when critical patches are required.
 
 You may monitor the Portal maintenance schedule and progress at [https://status.blackboard.com](https://status.blackboard.com) and review any update release notes below.
 
-> NOTE: Should a critical outage\* take place, we will release a detailed post-mortem on Behind the Blackboard as soon as possible - typically within four days post event. Any non-critical outage\*\* will be covered using our in-Portal announcements feature only.
+When maintenance is executed or we set a release date/time (which usually happens on a maintenance window) our production system will not be able to take requests and any calls that rely on the Developer Portal. During this time, any request will fail.
 
-> \* critical outage: service is unavailable or operating outside of usable performance or functional parameters.
+:::warning Outages
 
-> \*\* non-critical outage: service is available, but operating at reduced performance.
+Should a critical outage\* take place, we will release a detailed post-mortem on Behind the Blackboard as soon as possible (typically within four days post event).
 
-Usually, when maintenance is executed or we set a release date/time which usually happens on a maintenance window, our production system will not be able to take requests and any calls that rely on developer portal. Those will fail for about 30 minutes.
+Any non-critical outage\*\* will be covered using our in-Portal announcements feature only.
+:::
 
-### Release Notes
-
----
+<details>
+<summary>Release Notes</summary>
 
 #### May 28th 2024 - 02:30 AM EST
 
@@ -95,5 +95,37 @@ Release Name: 2023.2
 Features:
 
 - **Announcement Panel**: The Announcement Panel provides Developer facing Portal, APIs, and Event information. When a new announcement is available it will be indicated via a red dot on the Announcements icon in the Portal task bar. Clicking on the Announcements icon displays active announcements - latest at the top.
+
+</details>
+
+---
+
+## Blackboard Learn
+
+Learn release dates and release notes can be found through [Behind the Blackboard](https://behind.blackboard.com) or through our Help Documentation:
+
+- Release schedules for Blackboard Learn: [Release Schedule](https://help.blackboard.com/Learn/Administrator/SaaS/Release_Notes/Learn_SaaS_Release_Schedule)
+- Release Notes: [Release Notes](https://help.blackboard.com/Learn/Administrator/SaaS/Release_Notes)
+
+---
+
+## Student
+
+Anthology Student releases and docs are published through the Student Suite here: [Anthology Student Suite](https://help.anthology.com/Content/DocSets/CNSDocSet.htm)
+
+---
+
+## Reach
+
+Anthology Release releases and docs are published through the Reach Suite here: [Anthology Reach Suite](https://help.campusmanagement.com/Content/DocSets/ENGDocSet.htm)
+
+---
+
+:::note Annotations
+
+\* critical outage: service is unavailable or operating outside of usable performance or functional parameters.
+
+\*\* non-critical outage: service is available, but operating at reduced performance.
+:::
 
 <AuthorBox frontMatter={frontMatter}/>

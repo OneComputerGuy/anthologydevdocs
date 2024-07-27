@@ -1,0 +1,47 @@
+/*/ 50-50 Layout */
+
+.hero-banner-5050 {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+
+.hero-title-5050 {
+  padding: 2rem;
+  width: 50%;
+  height: 100%;
+  align-content: center;
+  background: linear-gradient(195deg, #1eac4b 10%, #2959a9 30%);
+  border-radius: 1rem;
+}
+
+.hero-description-5050 {
+  padding-left: 4rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+/*/ Monolithic Layout */
+
+.hero-banner-full {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(195deg, #1eac4b 10%, #2959a9 30%);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+}
+
+.hero-description {
+  text-align: center;
+  font-size: 1.5rem;
+}

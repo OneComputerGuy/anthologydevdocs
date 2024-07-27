@@ -1,0 +1,86 @@
+.docs-custom-footer {
+  margin-top: 3rem;
+  background: url("/img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(300deg, #10224b 20%, #091834 20%);
+}
+
+.docs-custom-footer div:first-child {
+  width: 90rem;
+  height: 20rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+.docs-custom-footer div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  color: #fff;
+  background-color: #021023;
+}
+
+.docs-custom-footer div:last-child p {
+  margin: 0;
+}
+
+.docs-custom-footer div section {
+  padding: 1rem;
+  width: 30%;
+  height: 70%;
+}
+
+.docs-custom-footer div section:nth-child(2) {
+  padding-left: 5rem;
+  width: 30%;
+  height: 70%;
+}
+
+.docs-custom-footer div section:first-child {
+  align-content: center;
+}
+
+.footer-section ul {
+  padding: 0;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-docs-copy {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-docs-copy a:active,
+.footer-docs-copy a:link,
+.footer-docs-copy a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-docs-copy a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+section ul {
+  list-style: none;
+}
+
+ul a:active,
+ul a:link,
+ul a:visited,
+ul a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-email {
+  text-decoration: underline !important;
+}
