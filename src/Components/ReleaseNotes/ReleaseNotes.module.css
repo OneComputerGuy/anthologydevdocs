@@ -1,0 +1,26 @@
+.releases-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.releases-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.releases-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.releases-link:link,
+.releases-link:visited,
+.releases-link:hover,
+.releases-link:active {
+  font-weight: 700;
+  color: #fff;
+}

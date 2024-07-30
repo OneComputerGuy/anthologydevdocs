@@ -1,0 +1,30 @@
+.card-outer {
+  width: 100%;
+}
+
+.card-wrapper {
+  height: 100%;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: #fff;
+}
+
+.card-wrapper-light {
+  background-color: var(--custom-anth-dark-blue);
+  background-color: var(--custom-anth-accent-secondary-light);
+}
+
+.card-wrapper-dark {
+  background-color: var(--custom-anth-light-blue);
+  background-color: var(--custom-anth-accent-secondary-dark);
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-contents {
+    font-size: 0.9rem;
+  }
+}

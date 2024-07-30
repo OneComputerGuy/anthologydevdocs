@@ -1,20 +1,28 @@
 import React from "react";
+import clsx from "clsx";
+import { useColorMode } from "@docusaurus/theme-common";
 
 export default function FooterWrapper(props) {
+  const { colorMode } = useColorMode();
+
   return (
     <>
-      <footer class='docs-custom-footer'>
+      <footer
+        className={clsx(
+          "docs-custom-footer",
+          `docs-footer-theme-${colorMode}`
+        )}>
         <div>
-          <section class='footer-section'>
+          <section className='footer-section'>
             <img
-              class='footer-docs-logo'
+              className='footer-docs-logo'
               src='/img/anthology-logo-white.svg'
               alt='Anthology logo'
             />
           </section>
-          <section class='footer-section'>
+          <section className='footer-section'>
             <h3>Solutions</h3>
-            <ul>
+            <ul className='footer-link'>
               <li>
                 <a
                   href='https://www.anthology.com/products/teaching-and-learning/learning-effectiveness/blackboard'
@@ -38,14 +46,14 @@ export default function FooterWrapper(props) {
               </li>
             </ul>
           </section>
-          <section class='footer-section'>
+          <section className='footer-section'>
             <h3>Community</h3>
-            <ul>
+            <ul className='footer-link'>
               <li>
                 <a
                   href='https://join.slack.com/t/blackboardtechies/shared_invite/zt-nheykjth-wLgONrE58MS53H~oySYk1g'
                   target='_blank'>
-                  Blackboard Techies - Slack server
+                  Bb Techies - Slack server
                 </a>
               </li>
               <li>
@@ -55,15 +63,15 @@ export default function FooterWrapper(props) {
               </li>
             </ul>
           </section>
-          <section class='footer-section'>
+          <section className='footer-section'>
             <h3>Contact Us</h3>
-            <ul>
+            <ul className='footer-link'>
               <li>
                 <span>Email us at </span>
                 <a
                   href='mailto:developers@anthology.com'
                   target='_blank'
-                  class='footer-email'>
+                  className='footer-email'>
                   developers@anthology.com
                 </a>
               </li>
@@ -75,8 +83,8 @@ export default function FooterWrapper(props) {
             </ul>
           </section>
         </div>
-        <div class='footer-copy-legal'>
-          <p class='footer-docs-copy'>
+        <div className='footer-copy-legal'>
+          <p className='footer-docs-copy'>
             ©2024 Anthology Inc. and its affiliates. All rights reserved.&nbsp;
             <a
               href='https://www.anthology.com/trademarks-and-patents'

@@ -1,14 +1,26 @@
 .docs-custom-footer {
   margin-top: 3rem;
-  background: url("/img/footer-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: linear-gradient(300deg, #10224b 20%, #091834 20%);
+}
+
+.docs-footer-theme-dark {
+  background: linear-gradient(
+    300deg,
+    var(--custom-anth-light-blue) 20%,
+    var(--custom-anth-dark-blue) 20%
+  );
+}
+
+.docs-footer-theme-light {
+  background: linear-gradient(
+    300deg,
+    var(--custom-anth-dark-blue) 20%,
+    var(--custom-anth-light-blue) 20%
+  );
 }
 
 .docs-custom-footer div:first-child {
   width: 90rem;
-  height: 20rem;
+  height: 16rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -69,14 +81,14 @@
   text-decoration: none;
 }
 
-section ul {
+.footer-section ul {
   list-style: none;
 }
 
-ul a:active,
-ul a:link,
-ul a:visited,
-ul a:hover {
+.footer-link a:active,
+.footer-link a:link,
+.footer-link a:visited,
+.footer-link a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -84,3 +96,103 @@ ul a:hover {
 .footer-email {
   text-decoration: underline !important;
 }
+
+/*/ Responsive styles  */
+/*/ Mobile */
+@media (max-width: 500px) {
+  .docs-custom-footer div:first-child {
+    margin-top: 3rem;
+    width: 18rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .docs-custom-footer div section {
+    font-size: 0.9rem;
+    width: 15rem;
+  }
+  .docs-custom-footer div section:nth-child(2) {
+    padding-left: 1rem;
+    width: 15rem;
+  }
+}
+
+/*/ Tablets */
+@media (min-width: 501px) and (max-width: 768px) {
+  .docs-custom-footer div:first-child {
+    margin-bottom: 2rem;
+    max-width: 44rem;
+    width: auto;
+    display: grid;
+    align-items: center;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .docs-custom-footer div section {
+    min-width: 16rem;
+    height: 10rem;
+    place-self: center;
+  }
+
+  .docs-custom-footer div section:nth-child(2) {
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .docs-custom-footer div:first-child {
+    max-width: 44rem;
+    margin-bottom: 2rem;
+    width: auto;
+    display: grid;
+    align-items: center;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .docs-custom-footer div section {
+    min-width: 16rem;
+    height: 10rem;
+    place-self: center;
+  }
+
+  .docs-custom-footer div section:nth-child(2) {
+    padding-left: 1rem;
+  }
+}
+
+/*/ Laptopts */
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .docs-custom-footer div:first-child {
+    margin-bottom: 2rem;
+    max-width: 62rem;
+    gap: 0.5rem;
+  }
+
+  .docs-custom-footer div section {
+    padding: 0.5rem;
+    max-width: 15rem;
+    height: 13rem;
+    place-self: center;
+  }
+
+  .docs-custom-footer div section:nth-child(2) {
+    padding-left: 2.3rem;
+    height: 13rem;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1920px) {
+  .docs-custom-footer div:first-child {
+    margin-bottom: 2rem;
+    max-width: 80rem;
+  }
+}
+
+/*/ Desktops above 1920px will use the regular CSS created above media queries*/
