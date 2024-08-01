@@ -8,8 +8,6 @@ edited: ""
 sidebar_position: 5
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Overview
 
 This document documents sample JSON between the Learn LMS and an
@@ -54,5 +52,3 @@ about is doing video embeds in Learn content. That will be our first, and for no
   }
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

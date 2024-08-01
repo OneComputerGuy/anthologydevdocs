@@ -2,12 +2,10 @@
 title: Tutorial - Build a Java Command Line REST Application
 id: java-command-line
 categories: Learn Rest
-published: ''
-edited: ''
+published: ""
+edited: ""
 author: Scott Hurrey
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 The purpose of this document is to allow a developer to walk through the REST
 Workshop from DevCon 2016. Please note that this sample code was built and
@@ -778,5 +776,3 @@ users, and memberships. Along the way, we learned how to institute OAuth,
 create HTTP messages and interact with the Learn REST APIs, how to
 use Jackson to serialize and deserialize objects, and how to use Gradle to
 build and run command line Java applications.
-
-<AuthorBox frontMatter={frontMatter}/>

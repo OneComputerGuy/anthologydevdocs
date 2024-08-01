@@ -4,8 +4,4 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 # Welcome to caliper!
-
-<AuthorBox frontMatter={frontMatter}/>

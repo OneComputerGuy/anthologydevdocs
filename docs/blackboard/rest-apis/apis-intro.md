@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Many Anthology products offer integration capabilities through the use of RESTful APIs. These products are listed to the left under **REST APIs**. We expect this list to grow over time so check in frequently!
 
 ## What are RESTful APIs?
@@ -30,5 +28,3 @@ There are several reasons why RESTful APIs are important:
 **Security**: RESTful APIs can be secured using various authentication mechanisms such as OAuth and SSL/TLS. This ensures that the data being transmitted is secure and only accessible to authorized users.
 
 Overall, RESTful APIs provide a simple and effective way to expose data and services over the web, making them an important tool for modern software development.
-
-<AuthorBox frontMatter={frontMatter}/>

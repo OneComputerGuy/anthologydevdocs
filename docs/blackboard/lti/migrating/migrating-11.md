@@ -7,8 +7,6 @@ edited: ""
 author: Eric Preston
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Overview
 
 For the first time in LTI's history we need to handle migrating from one version to another. Before 1.3 the changes were all
@@ -29,5 +27,3 @@ tool the admin is prompted to migrate the links. If they choose "yes" then we mi
 new LTI 1.3 application, effectively removing the LTI 1.1 domain configuration. The links remain and should work
 fine if the tool developer has done their job correctly. The target_link_uri for the 1.3 tool is the same
 as the launch URL defined in the LTI 1.1 placement or link.
-
-<AuthorBox frontMatter={frontMatter}/>

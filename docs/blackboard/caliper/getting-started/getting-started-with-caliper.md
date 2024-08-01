@@ -8,8 +8,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Caliper Analytics is an IMS Global standard focused on the delivery of
 consistent event tracking across campus applications.
 
@@ -32,5 +30,3 @@ to the Learn Activity Stream, and subscribing to the
 Learn Activity Stream as an additional Event Store. This section of the
 Anthology standards Developer Community will dive into both of these options,
 with sample code and supporting documentation.
-
-<AuthorBox frontMatter={frontMatter}/>

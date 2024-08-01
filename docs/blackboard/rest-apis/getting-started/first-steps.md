@@ -1,14 +1,12 @@
 ---
-title: 'First Steps with Learn REST API'
+title: "First Steps with Learn REST API"
 id: first-steps
 categories: Learn REST
 author: Scott Hurrey
 sidebar_position: 1
-published: ''
-edited: ''
+published: ""
+edited: ""
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 Anthology offers a suite of education technology tools, both software and
 hardware. REST stands for **Re**presentational **S**tate **T**ransfer. It is a
@@ -166,5 +164,3 @@ sure to check these links regularly.
 
 - [Developer Portal](https://developer.anthology.com/)
 - [REST Documentation](https://developer.anthology.com/portal/displayApi)
-
-<AuthorBox frontMatter={frontMatter}/>

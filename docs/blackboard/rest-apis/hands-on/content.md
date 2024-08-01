@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 > This guide was created using Learn Release 3900.37.0-rel.2+bf4004cd
 
 We do talk about original at the end, however, the main process is the same, we focus a bit more in Ultra since there is a bit of difference.
@@ -491,5 +489,3 @@ Returns
 The main difference about managing content in original is that you will always find two specific items created by default on toc:
 Information and content, those become the parents of content and you may create children content under those, you may create new parents and those should be reflected under the TOC, however those items cannot display information but contain it:
 ![Creating content with the api](/assets/img/manage-content-8.png)
-
-<AuthorBox frontMatter={frontMatter}/>

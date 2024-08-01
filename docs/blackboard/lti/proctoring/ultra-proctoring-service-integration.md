@@ -2,12 +2,10 @@
 title: Ultra Proctoring Service Integration - IMS Proctoring Spec + UEF
 parent: lti
 id: proctoring-service-integration
-published: ''
-edited: ''
+published: ""
+edited: ""
 author: Mark Kauffman
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 ## Overview
 
@@ -227,5 +225,3 @@ Pre-requisites:
    - Ultra Extension placement has not been created or is set to unavailable
    - Authorization with Ultra Extension Framework failed
    - Error in your JS script Ultra Extension Framework is calling
-
-<AuthorBox frontMatter={frontMatter}/>

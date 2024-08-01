@@ -7,7 +7,6 @@ author: Mark O'Neil
 published: ""
 edited: ""
 ---
-<VersioningTracker frontMatter={frontMatter}/>
 
 Anthology's new REST API Framework is a giant step forward for integrating
 with Learn. By moving the integration from in-process code to a
@@ -132,5 +131,3 @@ developers suite of applications to individual institution integrations at
 will be collecting data on usage which will be analyzed to determine Customer
 and third party developer production grade rate limits when the Technical
 Preview is lifted.
-
-<AuthorBox frontMatter={frontMatter}/>

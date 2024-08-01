@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream has two event types dedicated to assessments:
 
 - **AssessmentEvent**
@@ -492,5 +490,3 @@ Here is some of the key data that is associated with these events:
   ]
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

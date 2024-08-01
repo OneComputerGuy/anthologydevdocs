@@ -8,8 +8,6 @@ edited: "2024-03-20"
 author: Mark O'Neil, Davey Herrera, Dan Magers, Camilo Dominguez
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Maintenance and Update Window
 
 The Developer Portal has an _optional_ maintenance window scheduled every month on the Tuesday of the second week (after SaaS updates). The exception to this monthly maintenance schedule is when critical patches are required.
@@ -95,5 +93,3 @@ Release Name: 2023.2
 Features:
 
 - **Announcement Panel**: The Announcement Panel provides Developer facing Portal, APIs, and Event information. When a new announcement is available it will be indicated via a red dot on the Announcements icon in the Portal task bar. Clicking on the Announcements icon displays active announcements - latest at the top.
-
-<AuthorBox frontMatter={frontMatter}/>

@@ -1,13 +1,11 @@
 ---
-title: 'cURL Demo'
+title: "cURL Demo"
 id: curl-demo
 categories: Learn Rest
-published: ''
-edited: ''
+published: ""
+edited: ""
 author: Mark Kauffman
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 ## Introduction
 
@@ -923,5 +921,3 @@ take these cURL commands and use them to make all of the REST calls documented
 here: [Explore APIs](https://developer.anthology.com/portal/displayApi).
 
 - You must [register a developer account and application](/docs/developer-portal/dev-portal-start-here.md) in the Developer Portal
-
-<AuthorBox frontMatter={frontMatter}/>

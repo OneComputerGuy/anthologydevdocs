@@ -7,8 +7,6 @@ edited: ""
 author: Scott Hurrey
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 LTI 1.3 is a much better, much more secure option for integrating one application with another in a standard way. Python is an industry-standard language and is in use by many Blackboard institutions for building integrations.
 The purpose of this document is to demonstrate how to use the [pyLTI1p3](https://pypi.org/project/PyLTI1p3) library, built by [Dmitry Viskov](https://github.com/dmitry-viskov) to easily integrate a Python
 application with Learn's Ultra Experience. For the purposes of this demonstration, we will use Dmitry's [pylti1.3 flask example](https://github.com/dmitry-viskov/pylti1.3-flask-example).
@@ -169,5 +167,3 @@ You should now have a content item called `Breakout <your selected difficulty> m
 
 In the background, the tool uses the Names and Roles Provisioning service to create a leaderboard with the course members.
 Further, it uses the Assignments and Grades Service to store your latest score. Pretty fancy, right?
-
-<AuthorBox frontMatter={frontMatter}/>

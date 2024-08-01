@@ -8,8 +8,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 This document contains a map of the Caliper events emitted by
 Learn. If you are interested in learning more about Moodle's Caliper
 implementation, please visit the [Moodle Documentation](https://docs.moodle.org/dev/Caliper).
@@ -163,5 +161,3 @@ For more information, see [Blog Events](./blog-events.md).
 | Post to a Wiki in an Original Experience Course | Student | Immediately |
 
 For more information, see [Wiki Events](./wiki-events.md).
-
-<AuthorBox frontMatter={frontMatter}/>

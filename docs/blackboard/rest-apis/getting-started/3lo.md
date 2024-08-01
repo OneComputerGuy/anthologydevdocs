@@ -1,14 +1,12 @@
 ---
-title: '3LO'
+title: "3LO"
 id: 3lo
 categories: Learn REST
 sidebar_position: 8
 author: Scott Hurrey
-published: ''
-edited: ''
+published: ""
+edited: ""
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 # Three-Legged OAuth
 
@@ -152,5 +150,3 @@ client that sent the authorization code request.
 
 - [Three-legged OAuth in Curl](/docs/blackboard/rest-apis/demo-code/curl.md)
 - [BBDN-3LO-REST-Swift](https://github.com/blackboard/BBDN-3LO-REST-Swift)
-
-<AuthorBox frontMatter={frontMatter}/>

@@ -1,13 +1,11 @@
 ---
-title: 'Working with Rubrics APIs'
+title: "Working with Rubrics APIs"
 id: rubrics-apis
 categories: Learn REST Working-with APIs Rubrics
-published: '2023-10-20'
-edited: '2023-10-20'
+published: "2023-10-20"
+edited: "2023-10-20"
 author: Mark O'Neil
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 > Tested with Blackboard Learn version 3900.69.0
 
@@ -543,5 +541,3 @@ Rubrics entitlements required per endpoint are listed in the rubrics API documen
 Note: Please review our General REST API Best Practices which are outlined in our [REST API Best Practices](/docs/blackboard/rest-apis/best-practices.md) guide.
 
 - Cache rubrics and gradebook data when working within a specific course and gradebook to reduce the number of requests required.
-
-<AuthorBox frontMatter={frontMatter}/>

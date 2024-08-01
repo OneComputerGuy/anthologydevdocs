@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 This guide is only intended to be used in courses that use the original course view.
 
 > Tested with Blackboard Learn Release 3900.48.0-rel.18+c7edfda
@@ -178,5 +176,3 @@ The payload looks like this:
 Also, please keep in mind the following guideline:
 
 "Updates a specific TOC entry. Only allowGuests and allowObservers flags are modifiable, the remaining fields are read-only. User should keep in mind that in order to modify such TOC fields, Course's allowGuest and allowObservers configuration must be enabled. Also, if user wants to update a TOC register's allowGuest flag and TOC is associated to a CONTENT or APPLICATION target type, Course Tool Settings must have allowGuests flag enabled. If user wants to update a TOC register's allowObserver flag and TOC is associated to an APPLICATION target type, Course Tool Settings must have allowObservers flag enabled."
-
-<AuthorBox frontMatter={frontMatter}/>

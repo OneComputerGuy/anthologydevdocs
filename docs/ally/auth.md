@@ -7,8 +7,6 @@ edited: ""
 author: Scott Hurrey
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Blackboard Ally as a Service relies on JSON web tokens (JWT) to authenticate and authorize incoming REST API calls. You can read more about the JWT standard [here](https:////tools.ietf.org/html/rfc7519).
 
 The JSON web token must be signed with HMAC. HMAC allows the JWT to be signed with a shared secret. The data can be trusted because it is digitally signed with mutually known credentials.
@@ -167,5 +165,3 @@ thus, there are a ton of resources available for developers interested in JWT be
 
 - [JWT.io](https://jwt.io/): This site is dedicated to assisting developers trying to build JWT-enabled applications. There is a debugger that allows you to manually input your secret and your header and payload and generate an assertion. There is also an extensive list of available libraries in multiple languages that handle the bulk of the JWT creation.
 - [RFC 7519](https://tools.ietf.org/html/rfc7519): This is the actual standard specification document.
-
-<AuthorBox frontMatter={frontMatter}/>

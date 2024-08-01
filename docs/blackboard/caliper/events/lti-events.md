@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream emits an LTIEvent when any user:
 
 - **Clicks an LTI link**
@@ -129,5 +127,3 @@ Here is some of the key data that is associated with these events:
   }
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

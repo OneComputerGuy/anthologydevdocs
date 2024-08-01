@@ -1,13 +1,11 @@
 ---
-title: 'UEF Tutorials - LTI Launch From Ultra Course Leftnav'
+title: "UEF Tutorials - LTI Launch From Ultra Course Leftnav"
 categories: Learn UEF
 author: Mark Kauffman
 id: tutorials-course-leftnav
-published: '2023-10-10'
-edited: '2023-10-10'
+published: "2023-10-10"
+edited: "2023-10-10"
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 ### Overview
 
@@ -147,5 +145,3 @@ function renderPanelContents(message) {
 ### Notice
 
 Before releasing a UEF integration, that uses the UEF Premium APIs, to production you will be required to meet a certain level of Blackboard Partnership. See [Become a Blackboard Partner](/docs/partners/become-a-partner.md).
-
-<AuthorBox frontMatter={frontMatter}/>

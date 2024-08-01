@@ -7,7 +7,6 @@ edited: ""
 categories: Standards
 author: Eric Preston
 ---
-<VersioningTracker frontMatter={frontMatter}/>
 
 ### Overview
 
@@ -144,5 +143,3 @@ exports.handleIdToken = function(id_token) {
   "family_name": "Cool"
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

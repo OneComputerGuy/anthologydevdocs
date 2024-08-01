@@ -1,13 +1,11 @@
 ---
-title: 'Using the SaveStudentTransferCredit command API'
+title: "Using the SaveStudentTransferCredit command API"
 id: studentapi-savestudenttransfercredit-details
 sidebar_position: 1
 author: Jim Burns
-published: '2024-06-26'
-edited: '2024-06-26'
+published: "2024-06-26"
+edited: "2024-06-26"
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 A common use case for integrators is to persist data for courses completed at other institutions. There is capability in Anthology Student for a student to have course requirements satisfied with course work that has been completed at other institutions. The high level process is for a user to create a student transfer credit record which consists of the course(s) that have been completed at other institutions as well as the internal course(s) that the external course work will be satifying. There are many cases where the process of articulating which external courses satisfy which internal courses is handled outside of the Anthology Student applicatuin boundary. In this case, it is critical to be able to persist this data into Anthology Student so that business processes that have dependencies on transfer credit data will operate as expected. The command API endpoint that is used for persisting this data is api/commands/Admissions/StudentTransferCredit/SaveStudentTransferCredit. This document will document the pertinent details for being able to successfully leverage and execute this API.
 
@@ -120,5 +118,3 @@ In order to be able to execute this API endpoint, the user that the API call is 
 There are a number of properties in the request payload that are optional. The nuances of if/how to populate these will need to be determine via iterative testing and validation with the client. The sample request payload provided above can be used as a starting point but will likely need to be fine tuned in order to satisfy all requirements for recording student transfer credit data.
 
 If there are questions after reviewing this document and the corresponding swagger documentation, you can submit them by sending an email to developers@anthology.com.
-
-<AuthorBox frontMatter={frontMatter}/>

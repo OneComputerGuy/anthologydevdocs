@@ -3,11 +3,9 @@ title: Tips for using the Get and Save API operations
 id: get-save-bestpractices
 sidebar_position: 2
 author: Jim Burns
-published: '2024-04-23'
-edited: '2024-04-23'
+published: "2024-04-23"
+edited: "2024-04-23"
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 A large subset of the available APIs in Anthology Student have a scope of inserting and updating single instances of an entity. Every entity in the Student data model inherits from a base entity service. The available operations in the base entity service are Get, Create, SaveNew, Save and Delete. There are some entities in the model that have additional APIs implemented for inserting and updating data. These will be reflected with additional endpoints that are documented in Swagger. The focus of this document will outline best practices for how to update an existing instance of an entity utilizing the Get and Save endpoints.
 
@@ -372,5 +370,3 @@ EntityState is a property that exists on the base entity class that every entity
     3= Record is unchanged
 
 The value provided in this property may or may not impact the execution logic of the API you are calling. The use of this property in the API execution logic is not consistent across all of the Delete, Save and SaveNew operations. It is recommended that this property be populated correctly to align with the action that is occurring to ensure expected behavior in the API if there is dependent execution logic on this property.
-
-<AuthorBox frontMatter={frontMatter}/>

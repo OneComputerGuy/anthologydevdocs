@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream emits a CourseGroupEvent whenever
 an instructor creates, updates, or deletes a group in a course.
 
@@ -138,5 +136,3 @@ Here is a sample of what a payload might look like:
   ]
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

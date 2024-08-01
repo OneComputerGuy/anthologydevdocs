@@ -8,8 +8,6 @@ edited: "2024-07-26"
 author: Mark O'Neil, Davey Herrera, Dan Magers, Camilo Dominguez, Sebastian Silva
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ## Developer Portal
 
 The Developer Portal has an _optional_ maintenance window scheduled every month on the Tuesday of the second week (after SaaS updates). The exception to this monthly maintenance schedule is when critical patches are required.
@@ -127,5 +125,3 @@ Anthology Release releases and docs are published through the Reach Suite here: 
 
 \*\* non-critical outage: service is available, but operating at reduced performance.
 :::
-
-<AuthorBox frontMatter={frontMatter}/>

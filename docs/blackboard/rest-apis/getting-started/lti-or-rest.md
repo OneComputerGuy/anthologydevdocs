@@ -1,14 +1,12 @@
 ---
-title: 'LTI or REST?'
+title: "LTI or REST?"
 id: lti-or-rest
 categories: Learn REST
 sidebar_position: 5
 author: Mark Kauffman
-published: ''
-edited: ''
+published: ""
+edited: ""
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 We are often asked questions like, "When should I use LTI and when should I use REST?" "What is the difference?" "What can I do with REST that I can't with LTI
 (or vise-versa)?" In this document we discuss the differences, the similarities,
@@ -70,5 +68,3 @@ sure to check these links regularly.
 - [REST Documentation](https://developer.anthology.com/portal/displayApi)
 - [LTI Documentation](https://www.imsglobal.org/activity/learning-tools-interoperability)
 - [Learn & LTI Documentation](/docs/blackboard/lti/getting-started-with-lti.md)
-
-<AuthorBox frontMatter={frontMatter}/>

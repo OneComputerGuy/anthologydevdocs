@@ -7,8 +7,6 @@ edited: ""
 author: Scott Hurrey
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 # Feedback parameter definitions
 
 Here are the feedback parameters returned when the feedback endpoint is called. The full and meta columns defines which fields are included based on the feedback query parameter. If it is set to true, you get the full response, and the full column will have a <i class="material-icons">check</i>. If it is set to false or omitted, you receive just the meta data, and Meta column will have an <i class="material-icons">check</i>
@@ -100,5 +98,3 @@ Here are the feedback parameters returned when the feedback endpoint is called. 
 | metadata.libraryReference                                   | **Deprecated** Not used. This will always be null and will be removed in a future release      | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
 
 For more information about the Ally accessibility tests, visit the [Accessibility Checklist](https://help.blackboard.com/ally/Ally_for_LMS/Administrator/Institution_Report/Accessibility_Checklist) page on help.blackboard.com.
-
-<AuthorBox frontMatter={frontMatter}/>

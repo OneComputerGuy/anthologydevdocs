@@ -8,8 +8,6 @@ edited: ""
 sidebar_position: 1
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Premium APIs offer several new capabilities for integrations with
 Learn Ultra experience.
 
@@ -34,5 +32,3 @@ Partner or a third-party developer interested in our Premium APIs,
 we offer a variety of partnership levels in the
 [Anthology Partnership Program](https://www.blackboard.com/partnerships/become-a-partner).
 Once you upgrade your partnership level, please [submit a Behind the Blackboard ticket](https://blackboard.secure.force.com/).
-
-<AuthorBox frontMatter={frontMatter}/>

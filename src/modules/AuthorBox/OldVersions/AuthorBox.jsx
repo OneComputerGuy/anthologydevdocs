@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AuthorBox.module.css";
-import authors from "./authorInfo.json";
+import authors from "../authorInfo.json";
 import { useColorMode } from "@docusaurus/theme-common";
 
 const getAuthorInfo = (authorString) => {

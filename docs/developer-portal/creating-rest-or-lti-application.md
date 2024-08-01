@@ -1,14 +1,12 @@
 ---
-title: 'Registering and Managing a REST or LTI Application'
-id: 'creating-new-rest-or-lti-application'
+title: "Registering and Managing a REST or LTI Application"
+id: "creating-new-rest-or-lti-application"
 categories: Developer Portal
 sidebar_position: 2
-published: '2023-05-09'
-edited: '2024-03-20'
+published: "2023-05-09"
+edited: "2024-03-20"
 author: Davey Herrera, Dan Magers
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 This page explains how to register and manage a REST API or LTI application.
 
@@ -146,5 +144,3 @@ On this tab, can delete the registrations for sites that are no longer using you
 When a site is registered it will be displayed here and it will look like this:
 
 ![Registrations](/assets/img/create-rest-or-lti-app-12.png)
-
-<AuthorBox frontMatter={frontMatter}/>

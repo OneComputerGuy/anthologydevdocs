@@ -39,6 +39,10 @@
   --custom-anth-accent-blue: #2959a9;
   --custom-anth-accent-secondary-light: #2959a9;
   --custom-anth-accent-secondary-dark: #2959a9;
+  --custom-anth-author-dark: #344966;
+  --custom-anth-author-light: #b4cded;
+  --custom-anth-author-dark: #10224bdd;
+  --custom-anth-author-light: #091834dd;
 }
 
 * {

@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream emits an AssignableEvent in four
 cases:
 
@@ -162,5 +160,3 @@ lower in group.subOrganizationOf
   ]
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

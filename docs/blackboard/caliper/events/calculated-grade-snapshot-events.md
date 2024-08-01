@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream emits a CalculatedGradeSnapshotEvent nightly for any grade that is recalculated.
 
 Here is some of the key data that is associated with these events:
@@ -122,5 +120,3 @@ Here is a sample of what a payload might look like:
   ]
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

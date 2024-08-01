@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ## Introduction
 
 This enhancement to the UEF integration framework provides the ability for an integration to send a newEvent **lti:launch** even when the route is directed to new window launch from the LTI service, which inclujdes toolHref (launchUrl) and the placementId along with it.
@@ -58,5 +56,3 @@ As expected the LTI launch in a new window will have the new mentioned events an
 ```
 
 ![LTI launch context added](/assets/img/lti_launch_context_added_1.png)
-
-<AuthorBox frontMatter={frontMatter}/>

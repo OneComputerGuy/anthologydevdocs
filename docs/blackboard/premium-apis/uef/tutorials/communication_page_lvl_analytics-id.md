@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ## Introduction
 
 This enhancement to the UEF integration allows the framework to know if an analytics-id exists (or not) on the page, so should partners want to add functionality onto a page based on an elements visibility they are sure of the object they want to target.
@@ -114,5 +112,3 @@ IntegrationPageAnalytics
 ### Const:
 
 1. ANALYTICS_VISIBLE_TYPE = 'analytics:visible';
-
-<AuthorBox frontMatter={frontMatter}/>

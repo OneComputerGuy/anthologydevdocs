@@ -7,8 +7,6 @@ edited: ""
 author: Mark O'Neil
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 The rest demo script demonstrates authenticating a REST application,
 management and use of the authorization token, and creating, updating,
 discovering, and deleting supported Learn objects.
@@ -439,5 +437,3 @@ REST Demo Python command line application available on
 There is a README.html included that talks more specifically running the code.
 Feel free to review the code and run it against a test or development Learn
 instance to see how it works.
-
-<AuthorBox frontMatter={frontMatter}/>

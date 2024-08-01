@@ -7,5 +7,3 @@ published: "2024-07-26"
 edited: "2024-07-26"
 author: Sebastian Silva
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>

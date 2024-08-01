@@ -5,8 +5,4 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 This page contains a list of Student training videos.
-
-<AuthorBox frontMatter={frontMatter}/>

@@ -7,8 +7,6 @@ edited: ""
 author: Simon Gaeremynck
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 The UI API is a specification for HTML attributes that can be used to introduce consistent patterns of Ally functionality.
 
 ## Set-up
@@ -148,5 +146,3 @@ The following example contains two links. The first link is a download link your
     height="20" />
 </a>
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

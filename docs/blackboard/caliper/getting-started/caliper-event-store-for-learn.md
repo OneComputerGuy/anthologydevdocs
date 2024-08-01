@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn was the first Learning Management System to be certified for
 Caliper Learning Analytics. Caliper is an IMS Global standard that allows a
 provider, in this case Learn, to stream usage data to an external system. This
@@ -96,5 +94,3 @@ to process all of the incoming messages and have ample space and processing
 power to store the data and run reports against it. If you want more
 information about what types of data is included, check out the rest of this
 space for documents tagged for caliper.</p>
-
-<AuthorBox frontMatter={frontMatter}/>

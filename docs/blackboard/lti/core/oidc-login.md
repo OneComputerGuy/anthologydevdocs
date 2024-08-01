@@ -8,8 +8,6 @@ edited: ""
 author: Eric Preston
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Overview
 
 The Open ID Connect 3rd-party-initiated login is the first step in handling an LTI 1.3 launch.
@@ -52,5 +50,3 @@ exports.oidcLogin = function(req, res) {
   res.redirect(url);
 };
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

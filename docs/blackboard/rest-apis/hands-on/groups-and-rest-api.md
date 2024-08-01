@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Using Learn ULTRA on Ultra Course view on Release 3900.34.0-rel.24+41a9160
 
 On a course, it is possible to create groups to divide students according to the study plan, we have APIs available to perform this task, although this document is written thinking in differentiating Ultra and Original, all group set endpoints work with original, even thought it is displayed in a different way.
@@ -708,5 +706,3 @@ It returns 204:
 ```
 No content
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

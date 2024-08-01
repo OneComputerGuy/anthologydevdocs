@@ -8,8 +8,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Overview
 
 Authentication for REST Integrations follows the [OAuth 2.0 RFC Standard](https://tools.ietf.org/html/rfc6749). Each developer has a unique key and secret associated with each application they create. The developer makes an HTTP Post directly to the REST-enabled Learn server requesting an OAuth access token. The Learn instance forwards the request to Anthology's Developer Portal, adding its own siteId to the request so that the portal can determine whether the application is registered with the server. The Portal returns an authorization token that grants the application access to the Learn REST API for one hour. The developer uses this token in subsequent REST calls until the token expires. This workflow is illustrated in the following diagram:
@@ -143,5 +141,3 @@ you.
 - Tokens are associated with a specific Learn site.
 - Any application may have only one token per Learn site. Asking for a token returns the existing one with an updated expiry time if it has not expired yet.
 - Check the [Learn REST API Documentation](https://developer.anthology.com/portal/displayApi/Learn) for error codes.
-
-<AuthorBox frontMatter={frontMatter}/>

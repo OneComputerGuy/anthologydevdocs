@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ReleaseNotes.module.css";
 import Card from "../Card/Card";
-import latest from "../../../latestMaintenance.json";
+import latest from "../../../widgets/latestMaintenance.json";
 
 const ReleaseNotes = () => {
   return (

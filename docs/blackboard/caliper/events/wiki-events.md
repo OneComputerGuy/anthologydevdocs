@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream emits a WikiEvent whenever a
 student posts to a wiki in an original experience course. Here is some of the
 key data that is associated with these events:
@@ -131,5 +129,3 @@ Here is a sample of what an event payload might look like:
   ]
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

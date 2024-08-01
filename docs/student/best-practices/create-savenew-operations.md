@@ -4,11 +4,9 @@ id: create-savenew-bestpractices
 categories: Student REST
 sidebar_position: 3
 author: Jim Burns
-published: '2024-03-26'
-edited: '2024-03-26'
+published: "2024-03-26"
+edited: "2024-03-26"
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 A large subset of the available APIs in Anthology Student have a scope of inserting and updating single instances of an entity. Every entity in the Student data model inherits from a base entity service. The available operations in the base entity service are Get, Create, SaveNew, Save and Delete. There are some entities in the model that have additional APIs implemented for inserting and updating data. These will be reflected with additional endpoints that are documented in Swagger. The focus of this document will outline best practices for how to insert a new instance into an entity utilizing the Create and SaveNew endpoints.
 
@@ -532,5 +530,3 @@ The value provided in this property may or may not impact the execution logic of
 ### Id property
 
 The primary key for every entity in the Student data model is called Id. In most cases, this property will be populated with -1 in the response returned from the Create operation. If not, it is recommended that you set the value for this property to -1 prior to calling the SaveNew operation.
-
-<AuthorBox frontMatter={frontMatter}/>

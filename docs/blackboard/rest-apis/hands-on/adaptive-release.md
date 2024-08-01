@@ -1,13 +1,11 @@
 ---
-title: 'Working with Adaptive Release'
+title: "Working with Adaptive Release"
 id: adaptive-release
 categories: Learn REST groups
 author: Davey Herrera
-published: ''
-edited: ''
+published: ""
+edited: ""
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 > Using Bb Learn 3900.34.0-rel.24+41a9160
 
@@ -662,5 +660,3 @@ Specifies a content of the same course. The referenced content must be set to a 
   "reviewedContentId": "_2_1"
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

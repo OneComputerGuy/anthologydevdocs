@@ -7,8 +7,6 @@ edited: ""
 author: Simon Gaeremynck
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 The batch endpoint allows you to retrieve content for more than one content hash
 
 ## Endpoint
@@ -89,5 +87,3 @@ curl \
   -d '{"references": [{"hash": "a1b2c3d..."},{"hash": "QWxseSs..."},{"hash": "e1f2123..."}]}' \
   https://prod.ally.ac/api/v2/clients/:clientId/content/bash
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

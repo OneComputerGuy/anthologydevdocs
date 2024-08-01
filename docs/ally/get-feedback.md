@@ -1,13 +1,11 @@
 ---
-title: 'Retrieve the feedback for a file'
+title: "Retrieve the feedback for a file"
 id: getting-feedback
 categories: Ally
-published: ''
-edited: ''
+published: ""
+edited: ""
 author: Scott Hurrey
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 Once the file is processed, the feedback can be retrieved
 
@@ -204,5 +202,3 @@ curl \
   -H "Authorization: Bearer myJwtToken" \
   https://prod.ally.ac/api/v2/clients/:clientId/content/:contentHash
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

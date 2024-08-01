@@ -7,8 +7,6 @@ published: "2018-07-04"
 edited: "2024-07-26"
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 :::danger AMI availability
 
 As of July 26th, 2024, the last available image is Blackboard Learn 3900.95.0 and will be the latest image available while we review and align the publishing process with Amazon Web Services.
@@ -220,5 +218,3 @@ Currently, there is no formal migration/transfer tool to port Learn data between
 #### Notice - AVG on Windows Systems
 
 While using the AVG antivirus product on a Windows system and attempting to create a course using Learn, AVG may manifest what we believe is a false positive dialog regarding CVE-2014-0286-A. This can occur while using any browser, though the error message is specific to now unsupported versions of Microsoft Internet Explorer 6 through 11. Our security team has indicated that this is an issue with the AVG software. See the AVG website for questions about configuring the AVG software, and for their contact information.
-
-<AuthorBox frontMatter={frontMatter}/>

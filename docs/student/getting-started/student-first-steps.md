@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Anthology offers a suite of education technology tools, both software and hardware. REST stands for Representational State Transfer. It is a lightweight, flexible web service architecture that allows HTTP commands to be sent to Web Applications without unnecessary overhead.
 
 ## Before You Get Started
@@ -41,5 +39,3 @@ We will continue to add new examples, tutorials, and code samples so make sure t
 - [Student Developer Docs](https://docs.anthology.com) (navigate to REST APIs>Student)
 - [Developer Portal](https://developer.anthology.com/)
 - [REST Documentation](https://developer.anthology.com/portal/displayApi)
-
-<AuthorBox frontMatter={frontMatter}/>

@@ -7,8 +7,6 @@ published: ""
 edited: ""
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 Learn's Caliper Analytics stream emits a BlogEvent whenever a
 student submits a blog entry in an original experience course. Here is some of
 the key data that is associated with these events:
@@ -133,5 +131,3 @@ Here is a sample of what an event payload might look like:
   ]
 }
 ```
-
-<AuthorBox frontMatter={frontMatter}/>

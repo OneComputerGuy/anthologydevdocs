@@ -7,8 +7,6 @@ edited: ""
 author: Scott Hurrey
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Overview
 
 BbML is a subset of HTML. The parameters of some methods accept BbML-formatted
@@ -397,5 +395,3 @@ Notes:
 2. `title` is the description of the video.
 3. `alt` is the alt text of the image.
 4. It is beyond the scope of this document to describe the collab service api.
-
-<AuthorBox frontMatter={frontMatter}/>

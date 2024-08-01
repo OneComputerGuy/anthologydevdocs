@@ -7,8 +7,6 @@ edited: ""
 author: Ryan Haber
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 ### Overview
 
 Learn Ultra experience offers a REST API for managing assessments.
@@ -79,5 +77,3 @@ returns the ID and title of questions if the request succeeds because only
 those fields are included in the success response object. The method returns
 status and message if the request fails because only those fields are included
 in the error response object.
-
-<AuthorBox frontMatter={frontMatter}/>

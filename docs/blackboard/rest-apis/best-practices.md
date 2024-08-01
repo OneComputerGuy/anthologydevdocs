@@ -1,13 +1,11 @@
 ---
-title: 'Best Practices'
+title: "Best Practices"
 id: rest-api-best-practices
 sidebar_position: 2
-published: '2023-10-11'
-edited: '2023-10-11'
+published: "2023-10-11"
+edited: "2023-10-11"
 author: Davey Herrera, Mark O'Neil
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 ## General Best Practices
 
@@ -57,5 +55,3 @@ author: Davey Herrera, Mark O'Neil
 | ------------------------------------------------------------------ |
 | \* [Calendar](/docs/blackboard/rest-apis/hands-on/calendar-api.md) |
 | \* [Gradebook](/docs/blackboard/rest-apis/hands-on/gradebook.md)   |
-
-<AuthorBox frontMatter={frontMatter}/>

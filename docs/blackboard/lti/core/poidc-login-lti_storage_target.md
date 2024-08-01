@@ -7,7 +7,6 @@ published: "2024-01-05"
 edited: "2024-01-05"
 author: Mark Kauffman
 ---
-<VersioningTracker frontMatter={frontMatter}/>
 
 ### Motivation
 
@@ -24,5 +23,3 @@ In response to these challenges, 1EdTech (formerly IMS Global) has developed new
 An essential aspect of this new specification is that it does not require the inclusion of the lti_storage_target parameter in the tool launch process following the OIDC login. Instead, the specifications offer alternative ways to achieve the necessary functionality without relying on this parameter. For example, the LMS can indicate its support for an additional iframe for shared storage through a capabilities endpoint. This flexibility is particularly crucial for platforms like Learn, which adheres strictly to the guidelines that redirect URIs should not be modified from their registered value, as indicated by OAuth 2.0 standards.
 
 These changes represent a significant advancement in addressing the challenges posed by the evolving web privacy landscape, ensuring that LTI integrations can continue to provide seamless and secure user experiences in online learning environments. For developers and institutions, it's essential to stay informed about these updates and consider implementing them to maintain the efficacy and security of their LTI integrations.
-
-<AuthorBox frontMatter={frontMatter}/>

@@ -7,8 +7,6 @@ edited: ""
 author: Mark Kauffman
 ---
 
-<VersioningTracker frontMatter={frontMatter}/>
-
 #
 
 ### Caveat
@@ -24,5 +22,3 @@ On April 10, 2019, Eric Preston, Blackboard's resident LTI expert, spoke with us
 On May 1, 2019, Eric followed up with another, deeper dive into coding an LTI integration. [Watch the recording in Bb Collaborate](https://us.bbcollab.com/recording/e193c6cb59cb4ed1a776c271665d4154). [This is the associated slide deck.](https://slack-files.com/TFA153DM0-FJFEJH8NB-fbe304b473))
 
 Here is the sample code referenced in the presentations: https://github.com/blackboard/BBDN-LTI-Tool-Provider-Node
-
-<AuthorBox frontMatter={frontMatter}/>

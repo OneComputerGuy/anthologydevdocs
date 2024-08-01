@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./WhatsNew.module.css";
 import Card from "../Card/Card";
-import newDocs from "../../../newDocs.json";
+import newDocs from "../../../widgets/newDocs.json";
 
 const WhatsNew = () => {
   const buildNewEntry = (index, name, url) => {

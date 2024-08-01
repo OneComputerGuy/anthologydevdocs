@@ -1,13 +1,11 @@
 ---
-title: 'Working with Calendar APIs'
+title: "Working with Calendar APIs"
 id: calendar-apis
 categories: Learn REST Working-with APIs Calendar
-published: '2022-10-03'
-edited: '2023-10-20'
+published: "2022-10-03"
+edited: "2023-10-20"
 author: Davey Herrera, Mark O'Neil
 ---
-
-<VersioningTracker frontMatter={frontMatter}/>
 
 > Tested with Blackboard Learn version 3900.48.0
 >
@@ -737,5 +735,3 @@ Note: Please review our General REST API Best Practices which are outlined in ou
 | **until**                             |                                                                                                                                                                                                           |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------- | ------------ |
 | Query parameter: `string($date-time)` | Specifies only calendar items before the 'until' date (inclusive) are to be returned. Maximum of 16 weeks prior to the 'until' date will be returned. ISO-8601 date-time format is expected: `[yyyy-MM-dd | yyyyMMdd][T(hh:mm[:ss[.sss]] | hhmm[ss[.sss]])]?[Z | [+-]hh:mm]]` |
-
-<AuthorBox frontMatter={frontMatter}/>
