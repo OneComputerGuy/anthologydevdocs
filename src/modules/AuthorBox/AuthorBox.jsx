@@ -32,7 +32,6 @@ const AuthorBox = (props) => {
       <h3 className={styles["author-header"]}>Contributors on this article:</h3>
       <div className={styles["author-cards"]}>
         {userData.map((user) => {
-          console.log(user);
           return (
             <AuthorCard
               avatar={user.img}
