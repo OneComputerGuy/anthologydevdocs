@@ -7,7 +7,7 @@ const AuthorCard = ({ avatar, name, position, area }) => {
   const { colorMode } = useColorMode();
   // /// Option 1: Circle with rectangle in the bottom
 
-  // //+ TODO: Add GitHub Link (on image hover? Maybe?)
+  //+ TODO: Add GitHub Link (on image hover? Maybe?)
   return (
     <div className={styles["author-wrapper"]}>
       <div
