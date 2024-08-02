@@ -1,6 +1,6 @@
 /*/ Option 1 */
 
-/* .author-wrapper {
+.author-wrapper {
   width: 15rem;
   display: flex;
   flex-direction: column;
@@ -43,13 +43,11 @@
     var(--custom-anth-author-light) 20%,
     var(--custom-anth-author-dark) 20%
   );
-} 
-*/
+}
 
 /*/ Option 2 */
-
+/* 
 .author-wrapper {
-  /* width: 15rem; */
   padding: 1.2rem 1.5rem;
   display: flex;
   gap: 0.5rem;
@@ -71,14 +69,13 @@
 
 .author-info {
   color: #fff;
-  /* width: 13rem; */
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   border-radius: 1rem;
   align-content: stretch;
-}
+} */
 
 /*/ Shared  styles */
 
